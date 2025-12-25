@@ -1,0 +1,8 @@
+payload:
+  - '+.v2ex.com'
+  - '+.grammarly.com'
+  - '+.geekbench.com'
+  - '+.ankiweb.net'
+  - '+.uptodown.com'
+  - '+.malaysiakini.com'
+  - '+.clash.wiki'
