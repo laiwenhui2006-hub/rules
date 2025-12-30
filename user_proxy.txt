@@ -6,3 +6,4 @@ payload:
   - '+.uptodown.com'
   - '+.malaysiakini.com'
   - '+.clash.wiki'
+  - '+.open-vsx.org'
