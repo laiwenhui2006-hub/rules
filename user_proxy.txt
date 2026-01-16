@@ -7,3 +7,4 @@ payload:
   - '+.malaysiakini.com'
   - '+.clash.wiki'
   - '+.open-vsx.org'
+  - '+.context7.com' 
