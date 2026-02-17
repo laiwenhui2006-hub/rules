@@ -1,0 +1,36 @@
+payload:
+  # ===== Twitter / X =====
+  - '+.twitter.com'
+  - '+.x.com'
+  - '+.twimg.com'
+  - '+.t.co'
+
+  # ===== Facebook / Meta =====
+  - '+.facebook.com'
+  - '+.fbcdn.net'
+  - '+.instagram.com'
+  - '+.cdninstagram.com'
+
+  # ===== Telegram =====
+  - '+.telegram.org'
+  - '+.t.me'
+
+  # ===== Reddit =====
+  - '+.reddit.com'
+  - '+.redd.it'
+
+  # ===== Discord =====
+  - '+.discord.com'
+  - '+.discordapp.com'
+  - '+.discord.gg'
+
+  # ===== 其他常用代理 =====
+  - '+.wikipedia.org'
+  - '+.wikimedia.org'
+  - '+.medium.com'
+  - '+.v2ex.com'
+  - '+.notion.so'
+  - '+.notion.site'
+  - '+.grammarly.com'
+  - '+.1password.com'
+  - '+.dropbox.com'

@@ -1,0 +1,21 @@
+payload:
+  # ===== GitHub =====
+  - '+.github.com'
+  - '+.githubusercontent.com'
+  - '+.githubassets.com'
+  - '+.github.io'
+  - '+.github.dev'
+  - '+.copilot.github.com'
+  - '+.githubcopilot.com'
+
+  # ===== GitLab =====
+  - '+.gitlab.com'
+
+  # ===== Docker =====
+  - '+.docker.com'
+  - '+.docker.io'
+
+  # ===== 开发社区与包管理 =====
+  - '+.stackoverflow.com'
+  - '+.npmjs.com'
+  - '+.pypi.org'

@@ -1,0 +1,52 @@
+payload:
+  # ===== YouTube =====
+  - '+.youtube.com'
+  - '+.googlevideo.com'
+  - '+.ytimg.com'
+  - '+.youtu.be'
+  - '+.yt.be'
+  - '+.youtube-nocookie.com'
+
+  # ===== Netflix =====
+  - '+.netflix.com'
+  - '+.netflix.net'
+  - '+.nflximg.net'
+  - '+.nflximg.com'
+  - '+.nflxvideo.net'
+  - '+.nflxso.net'
+  - '+.nflxext.com'
+
+  # ===== Spotify =====
+  - '+.spotify.com'
+  - '+.spotifycdn.com'
+  - '+.scdn.co'
+
+  # ===== Twitch =====
+  - '+.twitch.tv'
+  - '+.ttvnw.net'
+  - '+.jtvnw.net'
+
+  # ===== Disney+ =====
+  - '+.disney.com'
+  - '+.disneyplus.com'
+  - '+.dssott.com'
+
+  # ===== HBO =====
+  - '+.hbo.com'
+  - '+.hbomax.com'
+
+  # ===== TikTok =====
+  - '+.tiktokv.com'
+  - '+.muscdn.com'
+  - '+.musical.ly'
+  - '+.tiktokcdn-us.com'
+  - '+.tik-tokapi.com'
+  - '+.tiktokd.net'
+  - '+.tiktokd.org'
+  - '+.tiktokw.us'
+  - '+.ttoverseaus.net'
+  - '+.sgsnssdk.com'
+  - '+.tiktokvideo.net'
+  - '+.tiktokcdn.com'
+  - '+.tiktokglobalcdn.com'
+  - '+.tiktokvideo.com'

@@ -1,0 +1,46 @@
+payload:
+  # ===== Context7 =====
+  - '+.context7.com'
+
+  # ===== OpenAI / ChatGPT =====
+  - '+.openai.com'
+  - '+.ai.com'
+  - '+.chatgpt.com'
+  - '+.sentry.io'
+  - '+.intercom.io'
+  - '+.intercomcdn.com'
+  - '+.featuregates.org'
+  - '+.identrust.com'
+  - '+.oaistatic.com'
+  - '+.oaiusercontent.com'
+
+  # ===== 字节海外 AI (Trae) =====
+  - '+.trae.ai'
+  - '+.mchost.guru'
+  - '+.byteoversea.com'
+  - '+.byteintlapi.com'
+  - '+.bytednsdoc.com'
+  - '+.byted.org'
+  - '+.marscode.com'
+  - '+.bytedance.net'
+  - '+.traeapi.us'
+  - '+.zijieapi.com'
+  - '+.tiktok-row.net'
+  - '+.trae.com.cn'
+
+  # ===== Claude / Anthropic =====
+  - '+.anthropic.com'
+  - '+.claude.ai'
+
+  # ===== Microsoft Copilot =====
+  - '+.copilot.microsoft.com'
+  - '+.bing.com'
+
+  # ===== 其他 AI 服务 =====
+  - '+.poe.com'
+  - '+.perplexity.ai'
+  - '+.character.ai'
+  - '+.midjourney.com'
+  - '+.stability.ai'
+  - '+.huggingface.co'
+  - '+.replicate.com'

@@ -1,0 +1,16 @@
+payload:
+  # ===== Google 核心 =====
+  - '+.google.com'
+  - '+.google.com.hk'
+  - '+.googleapis.com'
+  - '+.googleusercontent.com'
+  - '+.gstatic.com'
+  - '+.ggpht.com'
+
+  # ===== Google 广告/分析 =====
+  - '+.googleadservices.com'
+  - '+.doubleclick.net'
+  - '+.google-analytics.com'
+  - '+.googlesyndication.com'
+  - '+.googletagmanager.com'
+  - '+.googletagservices.com'
