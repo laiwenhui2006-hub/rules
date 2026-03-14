@@ -36,6 +36,7 @@ payload:
   - '+.hbomax.com'
 
   # ===== TikTok =====
+  - '+.tiktok.com'           # 新增：TikTok 绝对主本域
   - '+.tiktokv.com'
   - '+.muscdn.com'
   - '+.musical.ly'
@@ -50,9 +51,7 @@ payload:
   - '+.tiktokcdn.com'
   - '+.tiktokglobalcdn.com'
   - '+.tiktokvideo.com'
-  - '+.tiktok.com'          
-  - '+.byteoversea.com'   
-  - '+.ibytedtos.com'       
-  - '+.ibyteimg.com'        
-  - '+.bytedapm.com'        
-  - '+.byteimg.com'        
+  - '+.ttwebcast.com'        # 直播组件
+  - '+.byteoversea.net'      # 字节海外核心静态/CDN链路
+  - '+.snssdk.com'           # APP 核心鉴权/配置拉取
+  - '+.tiktok.org'
