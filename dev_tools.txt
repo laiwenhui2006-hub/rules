@@ -19,3 +19,9 @@ payload:
   - '+.stackoverflow.com'
   - '+.npmjs.com'
   - '+.pypi.org'
+
+  # ===== Homebrew =====
+  - '+.brew.sh'
+  - '+.homebrew.bintray.com'
+  - '+.ghcr.io'              # GitHub Container Registry (Brew 预编译包/Bottles 的主源)
+  - '+.pkg-containers.githubusercontent.com' # Brew Bottles 下载实际跳转源
