@@ -36,6 +36,21 @@ payload:
   - '+.hbomax.com'
 
   # ===== TikTok =====
+  - '+.byteoversea.com'
+  - '+.ibytedtok.com'
+  - '+.ipstatp.com'
+  - '+.sgpstatp.com'
+  - '+.tiktokv.us'
+  - '+.amemv.com'
+  - '+.bstarstatic.com'
+  - '+.bdurl.net'
+  - '+.bytegoofy.com'
+  - '+.tiktokcdn-in.com'
+  - '+.tiktokcdn-eu.com'
+  - '+.tiktokcdn-ap.com'
+  - '+.tiktokw.com'
+  - '+.ttlivecdn.com'
+  - '+.ttwstatic.com'
   - '+.tiktok.com'           # 新增：TikTok 绝对主本域
   - '+.tiktokv.com'
   - '+.muscdn.com'
