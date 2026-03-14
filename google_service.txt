@@ -20,6 +20,9 @@ payload:
   - '+.gvt2.com'
   - '+.gvt3.com'
   - '+.gvt4.com'
+  - '+.googleapis.cn'      # Google Play 下载相关域名，防止解析到国内出错
+  - '+.services.googleapis.cn'
+  - '+.xn--ngstr-lra8j.com'# Google Play 下载 CDN
   - '+.android.com'        # Android 核心服务支持
   - '+.app-measurement.com'# Firebase 分析 (GMS 强依赖依赖)
   - '+.firebaseio.com'     # Firebase 实时数据库推送
