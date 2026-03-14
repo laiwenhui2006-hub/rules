@@ -13,6 +13,13 @@ payload:
   - '+.identrust.com'
   - '+.oaistatic.com'
   - '+.oaiusercontent.com'
+  # === ChatGPT 防风控/验证/鉴权强依赖 ===
+  - '+.auth0.com'           # OpenAI 核心鉴权/登录依赖
+  - '+.challenges.cloudflare.com' # Cloudflare 验证码及真人校验
+  - '+.statsigapi.net'      # 功能开关和遥测(风控探针)
+  - '+.client-api.arkoselabs.com' # Arkose Labs 拼图验证码(高风险 IP 时触发)
+  - '+.poe.com'             # (已有冗余，但此处仅指 OpenAI 下可能关联的分析)
+
 
   # ===== 字节海外 AI (Trae) =====
   - '+.trae.ai'
