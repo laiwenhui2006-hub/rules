@@ -14,3 +14,13 @@ payload:
   - '+.googlesyndication.com'
   - '+.googletagmanager.com'
   - '+.googletagservices.com'
+
+  # ===== Google Play/GMS 下载与服务支持 =====
+  - '+.gvt1.com'           # Play Store 应用下载
+  - '+.gvt2.com'
+  - '+.gvt3.com'
+  - '+.gvt4.com'
+  - '+.android.com'        # Android 核心服务支持
+  - '+.app-measurement.com'# Firebase 分析 (GMS 强依赖依赖)
+  - '+.firebaseio.com'     # Firebase 实时数据库推送
+  - '+.crashlytics.com'    # 崩溃分析 (部分框架依赖)
