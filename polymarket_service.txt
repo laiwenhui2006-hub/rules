@@ -1,0 +1,13 @@
+payload:
+  # ===== Polymarket 主站 =====
+  - '+.polymarket.com'
+
+  # ===== Polymarket API 服务 =====
+  - 'gamma-api.polymarket.com'
+  - 'clob.polymarket.com'
+  - 'data-api.polymarket.com'
+  - 'sports-api.polymarket.com'
+
+  # ===== Polymarket WebSocket 服务 =====
+  - 'ws-subscriptions-clob.polymarket.com'
+  - 'ws-live-data.polymarket.com'
