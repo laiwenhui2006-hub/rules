@@ -50,4 +50,8 @@ payload:
   - '+.midjourney.com'
   - '+.stability.ai'
   - '+.huggingface.co'
+  - '+.huggingface.co'
+  - '+.huggingface.com'
+  - '+.hf.co'
+  - '+.huggingface.tech'
   - '+.replicate.com'
