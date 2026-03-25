@@ -11,7 +11,7 @@ payload:
   - '+.deepmind.google'
   - '+.deepmind.com'
   - '+.notebooklm.google'
-  - '+.generativeai.google
-  - '+.gstatic.com
-  - '+.googleusercontent.com
-  - '+.googleapis.com
+  - '+.generativeai.google'
+  - '+.gstatic.com'
+  - '+.googleusercontent.com'
+  - '+.googleapis.com'
