@@ -8,3 +8,4 @@ payload:
   - '+.clash.wiki'
   - '+.open-vsx.org'
   - '+.context7.com' 
+  - '*.tradingview.com'
