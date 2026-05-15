@@ -10,6 +10,7 @@ payload:
   - '+.arkoselabs.com'
 
   # === 图片上传、文件处理与 CDN (解决上传/下载失败) ===
+  - 'files.oaiusercontent.com'
   - '+.oaistatic.com'
   - '+.oaiusercontent.com'
   - '+.azureedge.net'
