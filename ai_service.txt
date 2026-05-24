@@ -68,3 +68,4 @@ payload:
   - '+.hf.co'
   - '+.huggingface.tech'
   - '+.replicate.com'
+  - '+.x.com'
