@@ -2,22 +2,31 @@ payload:
   # === Google 核心 (涵盖: Play 图书、Keep 记事、Play 商店、云端硬盘) ===
   - '+.google.com'            # 涵盖: books.google.com, keep.google.com, play.google.com, drive.google.com
   - '+.googleapis.com'        # 核心 API 后端
-  - '+.gstatic.com'           # 静态资源 (图片/样式)
-  - '+.googleusercontent.com' # 用户上传内容 (云盘下载、图书预览、邮件附件)
+  - '+.gstatic.com'           # 静态资源与 Android 连通性检查 (connectivitycheck)
+  - '+.googleusercontent.com' # 用户上传内容 (云盘下载、图书预览、邮件附件、开发者素材)
 
-  # === Gmail 专用 (必须额外添加) ===
+  # === Gmail 专用 ===
   - '+.gmail.com'             # Gmail 独立域名
 
-  # === Google Play 商店下载增强 (解决下载慢、失败) ===
-  - '+.android.com'
-  - '+.ggpht.com'             # 商店应用图标
-  - '+.gvt1.com'              # 核心下载 CDN
+  # === Google Play 商店下载与核心组件增强 ===
+  - '+.android.com'           # Android 官方服务与设备注册
+  - '+.ggpht.com'             # 商店应用图标、屏幕截图
+  - '+.gvt1.com'              # 核心下载 CDN (最关键，不可缺少)
   - '+.gvt2.com'
   - '+.gvt3.com'
+  - '+.goo.gl'                # 谷歌官方短链接 (部分应用分享与更新跳转使用)
+  - '+.widevine.com'          # DRM 数字版权管理 (解决部分受保护应用在商店不显示或报错)
 
-  # === Google AI 专用 (Gemini, NotebookLM 等) ===
+  # === Firebase 与 FCM 推送 (解决 App 后端数据交换与消息延迟) ===
+  - '+.firebaseio.com'        # Firebase 实时数据库
+  - '+.firebasehosting.com'   # Firebase 托管服务
+  - '+.app-measurement.com'   # 很多依赖 GMS 的 App 启动时必须加载的分析服务，断连会导致卡启动
+
+  # === Google AI 专用 (Gemini, AI Studio, NotebookLM 等) ===
   - '+.google.dev'
   - '+.deepmind.google'
   - '+.deepmind.com'
   - '+.notebooklm.google'
   - '+.generativeai.google'
+  - '+.aistudio.google'       # 补全：Google AI Studio 开发者平台
+  - '+.ai.google'             # 补全：Google AI 官网及相关资源
