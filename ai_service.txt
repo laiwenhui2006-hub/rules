@@ -69,3 +69,4 @@ payload:
   - '+.huggingface.tech'
   - '+.replicate.com'
   - '+.x.com'
+  - '+.ippure.com'
