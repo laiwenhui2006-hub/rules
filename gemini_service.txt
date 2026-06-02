@@ -30,3 +30,59 @@ payload:
   - '+.generativeai.google'
   - '+.aistudio.google'       # 补全：Google AI Studio 开发者平台
   - '+.ai.google'             # 补全：Google AI 官网及相关资源
+# openai
+  - '+.openai.com'
+  - '+.chatgpt.com'
+  - '+.ai.com'
+
+  # === 验证码与真人校验 (解决卡死、不显示、一直循环验证) ===
+  - '+.challenges.cloudflare.com'
+  - '+.client-api.arkoselabs.com'
+  - '+.arkoselabs.com'
+
+  # === 图片上传、文件处理与 CDN (解决上传/下载失败) ===
+  - 'files.oaiusercontent.com'
+  - '+.oaistatic.com'
+  - '+.oaiusercontent.com'
+  - '+.azureedge.net'
+  - '+.azurewebsites.net'
+
+  # === 登录鉴权与支付订阅 ===
+  - '+.auth0.com'
+  - '+.identrust.com'
+  - '+.stripe.com'
+
+  # === 功能开关、风控探测与性能监控 ===
+  - '+.statsigapi.net'
+  - '+.featuregates.org'
+  - '+.sentry.io'
+  - '+.intercom.io'
+  - '+.intercomcdn.com'
+
+  # === 其他关联服务 ===
+  - '+.poe.com'
+
+  # ===== Context7 =====
+  - '+.context7.com'
+
+  # ===== 字节海外 AI (Trae) =====
+  - '+.trae.ai'
+  - '+.mchost.guru'
+  - '+.byteoversea.com'
+  - '+.byteintlapi.com'
+  - '+.bytednsdoc.com'
+  - '+.byted.org'
+  - '+.marscode.com'
+  - '+.bytedance.net'
+  - '+.traeapi.us'
+  - '+.zijieapi.com'
+  - '+.tiktok-row.net'
+  - '+.trae.com.cn'
+
+  # ===== Claude / Anthropic =====
+  - '+.anthropic.com'
+  - '+.claude.ai'
+
+  # ===== Microsoft Copilot =====
+  - '+.copilot.microsoft.com'
+  - '+.bing.com'
