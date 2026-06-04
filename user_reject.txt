@@ -1,3 +1,11 @@
 payload:
   - '+.pornhub.com'
-
+  - '+.91porn.com'
+  - '+.xvideos.com'
+  - '+.redtube.com'
+  - '+.xnxx.com'
+  - '+.youporn.com'
+  - '+.spankbang.com'
+  - '+.tnaflix.com'
+  - '+.xhamster.com'
+  - '+.hanime1.me'
