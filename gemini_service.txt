@@ -1,88 +1,147 @@
 payload:
-  # === Google 核心 (涵盖: Play 图书、Keep 记事、Play 商店、云端硬盘) ===
-  - '+.google.com'            # 涵盖: books.google.com, keep.google.com, play.google.com, drive.google.com
-  - '+.googleapis.com'        # 核心 API 后端
-  - '+.gstatic.com'           # 静态资源与 Android 连通性检查 (connectivitycheck)
-  - '+.googleusercontent.com' # 用户上传内容 (云盘下载、图书预览、邮件附件、开发者素材)
+  # =========================================================
+  # Google / Gemini / Google Play / Android / GMS
+  # =========================================================
 
-  # === Gmail 专用 ===
-  - '+.gmail.com'             # Gmail 独立域名
+  # === Google 核心 ===
+  - '+.google.com'              # 覆盖 accounts/play/drive/gmail/gemini/aistudio/dl 等 google.com 子域
+  - '+.googleapis.com'          # 覆盖 Android/Play/Gemini/FCM/Firebase/Storage API
+  - '+.gstatic.com'             # 静态资源、Android 连通性检测
+  - '+.googleusercontent.com'   # 用户内容、Play 图标/截图、Drive 附件
+  - '+.usercontent.goog'        # Google 新式用户内容域
+  - '+.ggpht.com'               # Play 商店图片、图标、截图
+  - '+.gvt1.com'                # Google Play / Android 下载 CDN，关键
+  - '+.gvt2.com'                # Play 连接性监控/诊断
+  - '+.gvt3.com'                # Play 连接性监控/诊断
+  - '+.android.com'             # Android 官方服务
+  - '+.google-analytics.com'    # Android Enterprise / 部分 GMS 依赖
+  - '+.app-measurement.com'     # Firebase/Google Analytics for Apps
+  - '+.firebaseio.com'
+  - '+.firebasehosting.com'
+  - '+.firebaseapp.com'
+  - '+.dns.google'
+  - '+.googlezip.net'           # Android OTA / Google 系统更新缓存
+  - '+.widevine.com'            # DRM
+  - '+.widevinecdm.com'         # DRM
+  - '+.goo.gl'                  # Google 旧短链
+  - '+.g.co'                    # Google 新短链/跳转
 
-  # === Google Play 商店下载与核心组件增强 ===
-  - '+.android.com'           # Android 官方服务与设备注册
-  - '+.ggpht.com'             # 商店应用图标、屏幕截图
-  - '+.gvt1.com'              # 核心下载 CDN (最关键，不可缺少)
-  - '+.gvt2.com'
-  - '+.gvt3.com'
-  - '+.goo.gl'                # 谷歌官方短链接 (部分应用分享与更新跳转使用)
-  - '+.widevine.com'          # DRM 数字版权管理 (解决部分受保护应用在商店不显示或报错)
+  # === Google 区域域名，避免地区跳转异常 ===
+  - '+.google.com.hk'
+  - '+.google.com.tw'
+  - '+.google.com.sg'
+  - '+.google.co.jp'
+  - '+.google.co.uk'
 
-  # === Firebase 与 FCM 推送 (解决 App 后端数据交换与消息延迟) ===
-  - '+.firebaseio.com'        # Firebase 实时数据库
-  - '+.firebasehosting.com'   # Firebase 托管服务
-  - '+.app-measurement.com'   # 很多依赖 GMS 的 App 启动时必须加载的分析服务，断连会导致卡启动
-
-  # === Google AI 专用 (Gemini, AI Studio, NotebookLM 等) ===
+  # === Google AI / Gemini / NotebookLM / DeepMind ===
   - '+.google.dev'
+  - '+.generativeai.google'
+  - '+.notebooklm.google'
+  - '+.ai.google'
+  - '+.labs.google'
   - '+.deepmind.google'
   - '+.deepmind.com'
-  - '+.notebooklm.google'
-  - '+.generativeai.google'
-  - '+.aistudio.google'       # 补全：Google AI Studio 开发者平台
-  - '+.ai.google'             # 补全：Google AI 官网及相关资源
-# openai
-  - '+.openai.com'
-  - '+.chatgpt.com'
-  - '+.ai.com'
 
-  # === 验证码与真人校验 (解决卡死、不显示、一直循环验证) ===
-  - '+.challenges.cloudflare.com'
-  - '+.client-api.arkoselabs.com'
-  - '+.arkoselabs.com'
+  # === YouTube / Google Play 视频预览 / Google 媒体资源 ===
+  - '+.youtube.com'
+  - '+.googlevideo.com'
+  - '+.ytimg.com'
 
-  # === 图片上传、文件处理与 CDN (解决上传/下载失败) ===
-  - 'files.oaiusercontent.com'
-  - '+.oaistatic.com'
-  - '+.oaiusercontent.com'
-  - '+.azureedge.net'
-  - '+.azurewebsites.net'
+  # =========================================================
+  # OpenAI / ChatGPT / Codex
+  # =========================================================
 
-  # === 登录鉴权与支付订阅 ===
+  # === OpenAI 核心 ===
+  - '+.openai.com'              # 覆盖 api.openai.com / auth.openai.com / chat.openai.com 等
+  - '+.chatgpt.com'             # ChatGPT Web / App
+  - '+.ai.com'                  # OpenAI 跳转入口
+  - '+.oaistatic.com'           # ChatGPT 静态资源
+  - '+.oaiusercontent.com'      # 文件、图片、上传下载内容
+  - '+.openaimerge.com'         # ChatGPT 静态/CDN 资源
+  - '+.prodregistryv2.org'      # 官方网络清单涉及
+  - '+.featuregates.org'        # 功能开关
+  - '+.featureassets.org'       # 功能资源
+  - '+.statsigapi.net'          # 功能开关/实验
+  - '+.statsig.com'             # 功能开关/实验
+  - '+.browser-intake-datadoghq.com' # 性能监控/日志
+  - '+.sentry.io'               # 错误监控
+
+  # === OpenAI 登录 / 企业鉴权 / 邮件 / 支付 / 客服 ===
   - '+.auth0.com'
-  - '+.identrust.com'
+  - '+.workos.com'
+  - '+.workoscdn.com'
+  - '+.workos.imgix.net'
+  - '+.sendgrid.net'
   - '+.stripe.com'
-
-  # === 功能开关、风控探测与性能监控 ===
-  - '+.statsigapi.net'
-  - '+.featuregates.org'
-  - '+.sentry.io'
+  - '+.identrust.com'
   - '+.intercom.io'
   - '+.intercomcdn.com'
 
-  # === 其他关联服务 ===
+  # === OpenAI 验证码 / 真人校验 / 安全风控 ===
+  - '+.arkoselabs.com'
+  - '+.challenges.cloudflare.com'
+
+  # === OpenAI 关联 CDN / 云资源 ===
+  - '+.azureedge.net'
+  - '+.azurewebsites.net'
+
+  # =========================================================
+  # Claude / Anthropic / Claude Code
+  # =========================================================
+
+  - '+.anthropic.com'           # 覆盖 api.anthropic.com
+  - '+.claude.ai'               # Claude Web / 登录 / downloads.claude.ai
+  - '+.claude.com'              # Claude Console / platform.claude.com / OAuth
+  - '+.claudeusercontent.com'   # Claude Code bridge / 内容桥接
+  - '+.githubusercontent.com'   # raw.githubusercontent.com，Claude Code 安装/更新常用
+  - '+.github.com'              # 安装脚本、插件、文档跳转
+
+  # =========================================================
+  # Microsoft Copilot / Bing / Microsoft 365 Copilot
+  # =========================================================
+
+  - '+.bing.com'
+  - '+.bingapis.com'
+  - '+.microsoft.com'           # 覆盖 copilot.microsoft.com / edge.microsoft.com 等
+  - '+.cloud.microsoft'         # Microsoft 365 Copilot / WSS
+  - '+.office.com'
+  - '+.office.net'
+  - '+.microsoft365.com'
+  - '+.live.com'                # 个人微软账号登录
+  - '+.microsoftonline.com'     # 企业账号 / Entra ID
+  - '+.msauth.net'
+  - '+.msftauth.net'
+  - '+.msftauthimages.net'
+  - '+.aadcdn.microsoftonline-p.com'
+  - '+.windows.net'
+  - '+.azure.com'
+
+  # =========================================================
+  # Poe
+  # =========================================================
+
   - '+.poe.com'
 
-  # ===== Context7 =====
+  # =========================================================
+  # Context7
+  # =========================================================
+
   - '+.context7.com'
 
-  # ===== 字节海外 AI (Trae) =====
+  # =========================================================
+  # 字节海外 AI / Trae / MarsCode
+  # =========================================================
+
   - '+.trae.ai'
+  - '+.trae.com.cn'
+  - '+.traeapi.us'
   - '+.mchost.guru'
+  - '+.marscode.com'
   - '+.byteoversea.com'
   - '+.byteintlapi.com'
   - '+.bytednsdoc.com'
   - '+.byted.org'
-  - '+.marscode.com'
   - '+.bytedance.net'
-  - '+.traeapi.us'
   - '+.zijieapi.com'
   - '+.tiktok-row.net'
-  - '+.trae.com.cn'
 
-  # ===== Claude / Anthropic =====
-  - '+.anthropic.com'
-  - '+.claude.ai'
-
-  # ===== Microsoft Copilot =====
-  - '+.copilot.microsoft.com'
-  - '+.bing.com'
