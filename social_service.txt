@@ -34,3 +34,4 @@ payload:
   - '+.grammarly.com'
   - '+.1password.com'
   - '+.dropbox.com'
+  - '+.equaldcdn.com'
