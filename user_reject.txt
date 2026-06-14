@@ -1,6 +1,5 @@
 payload:
   - '+.pornhub.com'
-  - '+.91porn.com'
   - '+.xvideos.com'
   - '+.redtube.com'
   - '+.xnxx.com'
