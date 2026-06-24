@@ -13,6 +13,7 @@ payload:
   - '+.gvt1.com'                # Google Play / Android 下载 CDN，关键
   - '+.gvt2.com'                # Play 连接性监控/诊断
   - '+.gvt3.com'                # Play 连接性监控/诊断
+  - '+.gvt4.com'                # Play CDN 备份
   - '+.android.com'             # Android 官方服务
   - '+.google-analytics.com'    # Android Enterprise / 部分 GMS 依赖
   - '+.app-measurement.com'     # Firebase/Google Analytics for Apps
@@ -25,6 +26,11 @@ payload:
   - '+.widevinecdm.com'         # DRM
   - '+.goo.gl'                  # Google 旧短链
   - '+.g.co'                    # Google 新短链/跳转
+  - '+.googleapis.cn'           # Google Play 下载，防止解析到国内污染 IP
+  - '+.services.googleapis.cn'  # Play Services 中国 CDN
+  - '+.xn--ngstr-lra8j.com'    # Google Play 下载 CDN (Punycode)
+  - '+.ggpht.cn'                # Play 图片 CDN (亚洲)
+  - '+.googledrive.com'         # Google Drive 下载
 
   # === Google 区域域名，避免地区跳转异常 ===
   - '+.google.com.hk'
@@ -32,35 +38,44 @@ payload:
   - '+.google.com.sg'
   - '+.google.co.jp'
   - '+.google.co.uk'
+  - '+.google.co.kr'
 
   # === Google AI / Gemini / NotebookLM / DeepMind ===
   - '+.google.dev'
   - '+.generativeai.google'
   - '+.notebooklm.google'
+  - '+.notebooklm.google.com'   # NotebookLM 新域名
   - '+.ai.google'
+  - '+.ai.google.dev'           # AI Studio API
   - '+.labs.google'
   - '+.deepmind.google'
   - '+.deepmind.com'
-
+  - '+.idx.google.com'          # Project IDX (Google Cloud IDE)
+  - '+.alkali-pa.clients6.google.com'  # Gemini API 后端
 
   # =========================================================
-  # OpenAI / ChatGPT / Codex
+  # OpenAI / ChatGPT / Codex / Sora
   # =========================================================
 
   # === OpenAI 核心 ===
-  - '+.openai.com'              # 覆盖 api.openai.com / auth.openai.com / chat.openai.com 等
+  - '+.openai.com'              # 覆盖 api/auth/chat/platform.openai.com 等
   - '+.chatgpt.com'             # ChatGPT Web / App
   - '+.ai.com'                  # OpenAI 跳转入口
   - '+.oaistatic.com'           # ChatGPT 静态资源
   - '+.oaiusercontent.com'      # 文件、图片、上传下载内容
   - '+.openaimerge.com'         # ChatGPT 静态/CDN 资源
-  - '+.prodregistryv2.org'      # 官方网络清单涉及
+  - '+.openaiapi.com'           # 新版 API 域名
+  - '+.prodregistryv2.org'      # 官方网络清单
   - '+.featuregates.org'        # 功能开关
   - '+.featureassets.org'       # 功能资源
   - '+.statsigapi.net'          # 功能开关/实验
   - '+.statsig.com'             # 功能开关/实验
   - '+.browser-intake-datadoghq.com' # 性能监控/日志
   - '+.sentry.io'               # 错误监控
+
+  # === OpenAI 实时语音 / Advanced Voice / LiveKit ===
+  - '+.livekit.cloud'           # ChatGPT 语音模式 WebRTC
+  - '+.turn.livekit.cloud'      # TURN 中继服务器
 
   # === OpenAI 登录 / 企业鉴权 / 邮件 / 支付 / 客服 ===
   - '+.auth0.com'
@@ -76,21 +91,28 @@ payload:
   # === OpenAI 验证码 / 真人校验 / 安全风控 ===
   - '+.arkoselabs.com'
   - '+.challenges.cloudflare.com'
+  - '+.hcaptcha.com'            # hCaptcha 验证
+  - '+.recaptcha.net'           # reCAPTCHA 备用域
 
   # === OpenAI 关联 CDN / 云资源 ===
   - '+.azureedge.net'
   - '+.azurewebsites.net'
+  - '+.azurefd.net'             # Azure Front Door CDN
+  - '+.azure-api.net'           # Azure API Management
 
   # =========================================================
   # Claude / Anthropic / Claude Code
   # =========================================================
 
-  - '+.anthropic.com'           # 覆盖 api.anthropic.com
+  - '+.anthropic.com'           # 覆盖 api.anthropic.com / console.anthropic.com
   - '+.claude.ai'               # Claude Web / 登录 / downloads.claude.ai
   - '+.claude.com'              # Claude Console / platform.claude.com / OAuth
+  - '+.claude.site'             # Claude Artifacts 托管
   - '+.claudeusercontent.com'   # Claude Code bridge / 内容桥接
-  - '+.githubusercontent.com'   # raw.githubusercontent.com，Claude Code 安装/更新常用
+  - '+.githubusercontent.com'   # raw.githubusercontent.com，Claude Code 安装/更新
   - '+.github.com'              # 安装脚本、插件、文档跳转
+  - '+.githubassets.com'        # GitHub 静态资源
+  - '+.ghcr.io'                 # GitHub Container Registry
 
   # =========================================================
   # Microsoft Copilot / Bing / Microsoft 365 Copilot
@@ -140,4 +162,21 @@ payload:
   - '+.bytedance.net'
   - '+.zijieapi.com'
   - '+.tiktok-row.net'
+
+  # =========================================================
+  # Perplexity AI
+  # =========================================================
+
+  - '+.perplexity.ai'
+  - '+.pplx.ai'
+
+  # =========================================================
+  # Cursor / Windsurf AI IDE
+  # =========================================================
+
+  - '+.cursor.com'
+  - '+.cursor.sh'
+  - '+.cursorapi.com'
+  - '+.codeium.com'             # Windsurf/Codeium
+  - '+.windsurf.com'
 
