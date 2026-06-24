@@ -42,10 +42,6 @@ payload:
   - '+.deepmind.google'
   - '+.deepmind.com'
 
-  # === YouTube / Google Play 视频预览 / Google 媒体资源 ===
-  - '+.youtube.com'
-  - '+.googlevideo.com'
-  - '+.ytimg.com'
 
   # =========================================================
   # OpenAI / ChatGPT / Codex
