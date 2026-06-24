@@ -1,16 +1,9 @@
 payload:
 
   # ===== 其他 AI 服务 =====
-  - '+.poe.com'
-  - '+.perplexity.ai'
-  - '+.character.ai'
-  - '+.midjourney.com'
-  - '+.stability.ai'
   - '+.huggingface.co'
   - '+.huggingface.co'
   - '+.huggingface.com'
   - '+.hf.co'
   - '+.huggingface.tech'
-  - '+.replicate.com'
-  - '+.x.com'
-  - '+.ippure.com'
+
