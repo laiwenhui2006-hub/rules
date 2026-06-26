@@ -17,3 +17,5 @@ payload:
   - '+.replicate.com'
   - '+.x.com'
   - '+.ippure.com'
+  - '+.pingip.cn'
+
