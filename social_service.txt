@@ -24,6 +24,42 @@ payload:
   - '+.discordapp.com'
   - '+.discord.gg'
 
+  # ===== TikTok (原在 media_service，迁移至 AIServiceSelect 稳定固定 IP，避免 MediaSelect 选中的高带宽节点抖动导致连接超时) =====
+  - '+.byteoversea.com'
+  - '+.ibytedtok.com'
+  - '+.ipstatp.com'
+  - '+.sgpstatp.com'
+  - '+.tiktokv.us'
+  - '+.amemv.com'
+  - '+.bstarstatic.com'
+  - '+.bdurl.net'
+  - '+.bytegoofy.com'
+  - '+.tiktokcdn-in.com'
+  - '+.tiktokcdn-eu.com'
+  - '+.tiktokcdn-ap.com'
+  - '+.tiktokw.com'
+  - '+.ttlivecdn.com'
+  - '+.ttwstatic.com'
+  - '+.tiktok.com'           # 新增：TikTok 绝对主本域
+  - '+.tiktokv.com'
+  - '+.muscdn.com'
+  - '+.musical.ly'
+  - '+.tiktokcdn-us.com'
+  - '+.tik-tokapi.com'
+  - '+.tiktokd.net'
+  - '+.tiktokd.org'
+  - '+.tiktokw.us'
+  - '+.ttoverseaus.net'
+  - '+.sgsnssdk.com'
+  - '+.tiktokvideo.net'
+  - '+.tiktokcdn.com'
+  - '+.tiktokglobalcdn.com'
+  - '+.tiktokvideo.com'
+  - '+.ttwebcast.com'        # 直播组件
+  - '+.byteoversea.net'      # 字节海外核心静态/CDN链路
+  - '+.snssdk.com'           # APP 核心鉴权/配置拉取
+  - '+.tiktok.org'
+
   # ===== 其他常用代理 =====
   - '+.wikipedia.org'
   - '+.wikimedia.org'
