@@ -18,6 +18,10 @@ payload:
   - '+.x.com'
   - '+.ippure.com'
   - '+.pingip.cn'
+  # Just My Socks
+  - '+.justmysocks.net'
+  - '+.justmysocks2.net'
+  - '+.justmysocks3.net'
   # Cloudflare 相关
   - '+.cloudflare.com'
   - '+.cloudflare-dns.com'
