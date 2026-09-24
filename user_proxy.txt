@@ -39,3 +39,4 @@ payload:
   - '+.pages.dev'
   - '+.r2.dev'
   - '+.cfargotunnel.com'
+  - '+.mail.centerm.com'
