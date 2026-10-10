@@ -40,3 +40,4 @@ payload:
   - '+.r2.dev'
   - '+.cfargotunnel.com'
   - '+.mail.centerm.com'
+  - '+.binance.com'
