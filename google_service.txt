@@ -36,6 +36,7 @@ payload:
   - '+.googlezip.net'          # Android OTA / 系统更新压缩缓存
   - '+.android.com'            # Android 核心服务
   - '+.android.clients.google.com' # Play Store APK 下载入口 (关键!)
+  - '+.gvt1-cn.com' # Play Services 中国 CDN
 
   # ===== FCM / Firebase (GMS 推送依赖) =====
   - '+.app-measurement.com'    # Firebase 分析 (GMS 强依赖)
