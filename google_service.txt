@@ -62,6 +62,18 @@ payload:
   - '+.qiao-cn.com'
   - '+.recaptcha-cn.net'
 
+  # ===== Google 大陆相关补充域名（根域及所有子域） =====
+  # 2026-10-16：核对社区清单及 Google DNS；不代表所有域名均用于 APK 下载
+  - '+.gstatic.cn'
+  - '+.googlecnapps.cn'
+  - '+.gstaticcnapps.cn'
+  - '+.gkecnapps.cn'
+  - '+.xn--ngstr-cn-8za9o.com'
+  - '+.google.cn'
+  - '+.g.cn'
+  - '+.doubleclick.cn'
+  - '+.googleadsserving.cn'
+
   # ===== FCM / Firebase (GMS 推送依赖) =====
   - '+.app-measurement.com'    # Firebase 分析 (GMS 强依赖)
   - '+.firebaseio.com'         # Firebase 实时数据库
