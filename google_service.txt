@@ -38,6 +38,30 @@ payload:
   - '+.android.clients.google.com' # Play Store APK 下载入口 (关键!)
   - '+.gvt1-cn.com' # Play Services 中国 CDN
 
+  # ===== Google 中国服务域名别名（含下载 CDN；覆盖根域及所有子域） =====
+  # 来源：v2fly/domain-list-community/data/google（2026-10-16 核对）
+  - '+.2mdn-cn.net'
+  - '+.admob-cn.com'
+  - '+.app-measurement-cn.com'
+  - '+.dartsearch-cn.net'
+  - '+.doubleclick-cn.net'
+  - '+.google-analytics-cn.com'
+  - '+.googleads-cn.com'
+  - '+.googleadservices-cn.com'
+  - '+.googleapis-cn.com'
+  - '+.googleapps-cn.com'
+  - '+.googleflights-cn.net'
+  - '+.googleoptimize-cn.com'
+  - '+.googlesyndication-cn.com'
+  - '+.googletagmanager-cn.com'
+  - '+.googletagservices-cn.com'
+  - '+.googletraveladservices-cn.com'
+  - '+.googlevads-cn.com'
+  - '+.gstatic-cn.com'
+  - '+.gvt2-cn.com'
+  - '+.qiao-cn.com'
+  - '+.recaptcha-cn.net'
+
   # ===== FCM / Firebase (GMS 推送依赖) =====
   - '+.app-measurement.com'    # Firebase 分析 (GMS 强依赖)
   - '+.firebaseio.com'         # Firebase 实时数据库
