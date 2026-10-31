@@ -41,3 +41,4 @@ payload:
   - '+.cfargotunnel.com'
   - '+.mail.centerm.com'
   - '+.binance.com'
+  - '+.ankiweb.net'
