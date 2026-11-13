@@ -42,5 +42,6 @@ payload:
   - '+.mail.centerm.com'
   - '+.binance.com'
   - '+.ankiweb.net'
+  - '+.api.weixin.qq.com'
 
 
