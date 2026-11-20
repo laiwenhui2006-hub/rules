@@ -1,4 +1,25 @@
 payload:
+  # ===== X 图片/视频/静态资源（x.com/twitter.com/t.co/api/upload 在 social_service 保持稳定线路）=====
+  - 'pbs.twimg.com'
+  - 'video.twimg.com'
+  - 'video-s.twimg.com'
+  - 'abs.twimg.com'
+  - 'abs-0.twimg.com'
+  - 'ton.twimg.com'
+  - 'platform.twimg.com'
+  - 'syndication.twimg.com'
+  - 'cdn.syndication.twimg.com'
+
+  # ===== Facebook / Instagram 内容 CDN（facebook.com / instagram.com / graph / rupload 在 social_service 保持稳定线路）=====
+  - '+.fbcdn.net'
+  - '+.cdninstagram.com'
+
+  # ===== Reddit 图片/视频（reddit.com 主站、登录、API 在 social_service 保持稳定线路）=====
+  - '+.redd.it'
+
+  # ===== Cloudflare Stream 视频（其他 Cloudflare 域名在 user_proxy 保持稳定线路）=====
+  - '+.cloudflarestream.com'
+
   # ===== YouTube =====
   - '+.youtube.com'
   - '+.googlevideo.com'

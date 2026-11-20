@@ -2,14 +2,14 @@ payload:
   # ===== Twitter / X =====
   - '+.twitter.com'
   - '+.x.com'
-  - '+.twimg.com'
+  # twimg.com 仅保留 api 在稳定线路；其余媒体/静态/嵌入主机见 media_service
+  - 'api.twimg.com'
   - '+.t.co'
 
   # ===== Facebook / Meta =====
   - '+.facebook.com'
-  - '+.fbcdn.net'
+  # fbcdn.net / cdninstagram.com 全部内容 CDN 已迁至 media_service；facebook.com / instagram.com 主站、graph、上传保持稳定线路
   - '+.instagram.com'
-  - '+.cdninstagram.com'
 
   # ===== Telegram =====
   - '+.telegram.org'
@@ -17,7 +17,7 @@ payload:
 
   # ===== Reddit =====
   - '+.reddit.com'
-  - '+.redd.it'
+  # redd.it 图片/视频/短链主机已迁至 media_service；reddit.com 主站、登录、API 保持稳定线路
 
   # ===== Discord =====
   - '+.discord.com'

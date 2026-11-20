@@ -26,7 +26,6 @@ payload:
   - '+.cloudflare.com'
   - '+.cloudflare-dns.com'
   - '+.cloudflareinsights.com'
-  - '+.cloudflarestream.com'
   - '+.cloudflareclient.com'
   - '+.cloudflarestatus.com'
   - '+.cloudflareaccess.com'
