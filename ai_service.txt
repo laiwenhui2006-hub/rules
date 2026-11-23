@@ -2,7 +2,9 @@ payload:
 
   # ===== 其他 AI 服务 =====
   - '+.huggingface.co'
+  - '+.huggingface.co'
   - '+.huggingface.com'
   # Xet 下载、CDN 和 LFS 主机优先匹配 media_service；此后缀保留其余 HF 流量。
   - '+.hf.co'
   - '+.huggingface.tech'
+
