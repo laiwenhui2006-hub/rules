@@ -32,6 +32,7 @@ payload:
   - '+.conda.io'
   - '+.conda-forge.org'      # conda-forge 事实上的最核心主源
   - '+.pytorch.org'          # PyTorch 官网及安装包分发
+  - '+.download.pytorch.org'
   - '+.nvidia.com'           # CUDA/CuDNN 等底层驱动与依赖
   - '+.nvidiagrid.net'
   - '+.tensorflow.org'

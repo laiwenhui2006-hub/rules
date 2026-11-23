@@ -55,18 +55,3 @@ payload:
   # ===== HBO =====
   - '+.hbo.com'
   - '+.hbomax.com'
-
-  # ===== Hugging Face 模型与数据集下载（主站、SSH、共用 CAS API 留在 ai_service）=====
-  - 'transfer.xethub.hf.co'
-  - 'transfer.xethub-eu.hf.co'
-  - 'us.aws.cdn.hf.co'
-  - 'us.gcp.cdn.hf.co'
-  - 'cdn-lfs-us-1.hf.co'
-  - 'cdn-lfs-eu-1.hf.co'
-
-  # ===== 开发下载：Docker 镜像、Conda 包、PyTorch wheel =====
-  - 'registry-1.docker.io'
-  - 'production.cloudfront.docker.com'
-  - 'repo.anaconda.com'
-  - 'conda.anaconda.org'
-  - 'download.pytorch.org'
