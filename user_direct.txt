@@ -1,3 +1,15 @@
 payload:
   - '+.i234.me'
-  - '+.workhorse.top' 
+  - '+.workhorse.top'
+  # ippure 的 +.microsoft.com / +.bing.com / +.live.com 下属国内下载与中国版服务（geosite:cn 收录），直连优先
+  - '+.download.prss.microsoft.com'
+  - '+.downloads.prss.microsoft.com'
+  - '+.dl.delivery.mp.microsoft.com'
+  - '+.download.visualstudio.microsoft.com'
+  - '+.officecdn.microsoft.com'
+  - '+.update.microsoft.com'
+  - '+.windowsupdate.microsoft.com'
+  - '+.storeedge.microsoft.com'
+  - '+.cn.bing.com'
+  - '+.bj1.api.bing.com'
+  - '+.ditu.live.com'
